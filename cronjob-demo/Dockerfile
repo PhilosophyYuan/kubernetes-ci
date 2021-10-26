@@ -1,4 +1,4 @@
-FROM hub.mooc.com/kubernetes/openjdk:8-jre-alpine
+FROM docker.io/library/openjdk:8u111-jre-alpine
 
 COPY target/cronjob-demo-1.0-SNAPSHOT.jar /cronjob-demo.jar
 
